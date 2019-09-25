@@ -1,0 +1,603 @@
+Index: .idea/$PRODUCT_WORKSPACE_FILE$
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/$PRODUCT_WORKSPACE_FILE$	(date 1569375190000)
++++ .idea/$PRODUCT_WORKSPACE_FILE$	(date 1569375190000)
+@@ -0,0 +1,41 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="masterDetails">
++    <states>
++      <state key="GlobalLibrariesConfigurable.UI">
++        <settings>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="JdkListConfigurable.UI">
++        <settings>
++          <last-edited>1.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ProjectLibrariesConfigurable.UI">
++        <settings>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++    </states>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1569375190000)
++++ .idea/.gitignore	(date 1569375190000)
+@@ -0,0 +1,2 @@
++# Default ignored files
++/workspace.xml
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(date 1569375190000)
++++ .idea/compiler.xml	(date 1569375190000)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="DuanXinTest" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1569375190000)
++++ .idea/misc.xml	(date 1569375190000)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/uiDesigner.xml	(date 1569375190000)
++++ .idea/uiDesigner.xml	(date 1569375190000)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1569375190000)
++++ .idea/vcs.xml	(date 1569375190000)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: DuanXinTest.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- DuanXinTest.iml	(date 1569375190000)
++++ DuanXinTest.iml	(date 1569375190000)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(date 1569375190000)
++++ pom.xml	(date 1569375190000)
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>javaxxf</groupId>
++    <artifactId>duanxin</artifactId>
++    <version>1.0-SNAPSHOT</version>
++<dependencies>
++    <!--短信测试-->
++    <dependency>
++        <groupId>com.aliyun</groupId>
++        <artifactId>aliyun-java-sdk-core</artifactId>
++        <version>3.2.8</version>
++    </dependency>
++    <dependency>
++        <groupId>com.aliyun</groupId>
++        <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
++        <version>1.1.0</version>
++    </dependency>
++</dependencies>
++
++</project>
+\ No newline at end of file
+Index: readme.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- readme.md	(date 1569375190000)
++++ readme.md	(date 1569375190000)
+@@ -0,0 +1,49 @@
++效果图：
++
++![img](https://mmbiz.qpic.cn/mmbiz_png/LS4lxg6IgF91nkVSQ5GulCPob04RnTUW9Ph5tSmxMMaSyuJ4PQicnkwRJRzlS1rAhZ5JOVce0vfr8zdVTfnbkyA/640?wx_fmt=png)
++
++
++
++> 阿里云短信api申请入口：
++>
++> https://dysms.console.aliyun.com/dysms.htm?spm=5176.8195934.1283918..1e4530c9JPkwcB&aly_as=TMi1CRWG#/overview
++
++![img](https://mmbiz.qpic.cn/mmbiz_png/LS4lxg6IgF91nkVSQ5GulCPob04RnTUWQL2icaL8VRTysZx40aI4NEPmhj0WZgh5ibicJjwjD1GKlLKta6p2DibC7g/640?wx_fmt=png)
++
++```
++配置信息类：ConfigurationInformation
++功能实现类：VerificationCode
++执行类：Run
++
++ConfigurationInformation类中这三个参数需要改成你自己的。
++SignName
++TemplateCode
++accessKeyId
++
++VerificationCode类中
++private static String code;//code要与你的短信模板中的参数一致
++
++```
++
++
++
++
++
++SignName
++
++![img](https://mmbiz.qpic.cn/mmbiz_png/LS4lxg6IgF91nkVSQ5GulCPob04RnTUWEzwksbWzhialk8FgxrgAicHiagMq1K6vZ88Q8aXPr2d9QUL3LtPPFeajQ/640?wx_fmt=png)
++
++TemplateCode
++
++![img](https://mmbiz.qpic.cn/mmbiz_png/LS4lxg6IgF91nkVSQ5GulCPob04RnTUWQzklUrLRSN0F1y69WOMSz35BwFdnicnFX8uM4UTks8KwXMV0RCS9Spw/640?wx_fmt=png)
++
++accessKeyId
++
++![img](https://mmbiz.qpic.cn/mmbiz_png/LS4lxg6IgF91nkVSQ5GulCPob04RnTUWyqtWTOBEPoJ0C344gx8DUiaTMIKjggkXUKINiayvoG8e9Snf8hb9NlTw/640?wx_fmt=png)
++
++```
++private static String code;
++```
++
++![img](https://mmbiz.qpic.cn/mmbiz_png/LS4lxg6IgF91nkVSQ5GulCPob04RnTUWia5xwoRcDMUibfwDvy0yyhQT4ic7TCGnW4zzLdOS2ug8DvqHRmAyml3LQ/640?wx_fmt=png)
++
+Index: src/main/java/com/javaxxf/ConfigurationInformation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/javaxxf/ConfigurationInformation.java	(date 1569375190000)
++++ src/main/java/com/javaxxf/ConfigurationInformation.java	(date 1569375190000)
+@@ -0,0 +1,21 @@
++package com.javaxxf;
++
++public class ConfigurationInformation {
++    /**
++     * 手机验证部分配置
++             */
++// 设置超时时间-可自行调整
++final static String defaultConnectTimeout  = "sun.net.client.defaultConnectTimeout";
++final static String defaultReadTimeout = "sun.net.client.defaultReadTimeout";
++final static String Timeout = "10000";
++// 初始化ascClient需要的几个参数
++final static String product = "Dysmsapi";// 短信API产品名称（短信产品名固定，无需修改）
++final static String domain = "dysmsapi.aliyuncs.com";// 短信API产品域名（接口地址固定，无需修改）
++// 替换成你的AK (产品密)
++final static String accessKeyId = "LTAIDaR44tGZWjNH";// 你的accessKeyId,填你自己的 上文配置所得  自行配置
++final static String accessKeySecret = "FuznkaMk17oTBcxmFY4ykZ4sXZe8KL";// 你的accessKeySecret,填你自己的 上文配置所得 自行配置
++// 必填:短信签名-可在短信控制台中找到
++final static String SignName = "java学习" ;// 阿里云配置你自己的短信签名填入
++// 必填:短信模板-可在短信控制台中找到
++final static String TemplateCode = "SMS_172881048"; // 阿里云配置你自己的短信模板填入
++        }
+Index: src/main/java/com/javaxxf/Run.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/javaxxf/Run.java	(date 1569375190000)
++++ src/main/java/com/javaxxf/Run.java	(date 1569375190000)
+@@ -0,0 +1,11 @@
++package com.javaxxf;
++
++public class Run {
++    //直接运行这个main方法即可获取严重嘛
++    public static void main(String[] args) {
++        String phone = "13535154153"; //此处可输入你的手机号码进行测试
++        VerificationCode vc=new VerificationCode();
++        vc.getPhonemsg(phone);
++    }
++
++}
+Index: src/main/java/com/javaxxf/VerificationCode.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/javaxxf/VerificationCode.java	(date 1569375190000)
++++ src/main/java/com/javaxxf/VerificationCode.java	(date 1569375190000)
+@@ -0,0 +1,116 @@
++package com.javaxxf;
++
++import com.aliyuncs.profile.IClientProfile;
++
++
++import com.aliyuncs.DefaultAcsClient;
++import com.aliyuncs.IAcsClient;
++import com.aliyuncs.exceptions.ClientException;
++import com.aliyuncs.exceptions.ServerException;
++import com.aliyuncs.http.MethodType;
++import com.aliyuncs.profile.DefaultProfile;
++import com.aliyuncs.profile.IClientProfile;
++import com.aliyuncs.dysmsapi.model.v20170525.SendSmsRequest;
++import com.aliyuncs.dysmsapi.model.v20170525.SendSmsResponse;
++
++
++    public class VerificationCode {
++        private static String code;
++        /**
++         * 阿里云短信服务配置
++         * @param mobile
++         * @return
++         */
++        public static String getPhonemsg(String mobile) {
++
++            /**
++             * 进行正则关系校验
++             */
++            System.out.println(mobile);
++            if (mobile == null || mobile == "") {
++                System.out.println("手机号为空");
++                return "";
++            }
++            /**
++             * 短信验证---阿里大于工具
++             */
++
++            // 设置超时时间-可自行调整
++            System.setProperty(ConfigurationInformation.defaultConnectTimeout, ConfigurationInformation.Timeout);
++            System.setProperty(ConfigurationInformation.defaultReadTimeout, ConfigurationInformation.Timeout);
++            // 初始化ascClient需要的几个参数
++            final String product = ConfigurationInformation.product;// 短信API产品名称（短信产品名固定，无需修改）
++            final String domain = ConfigurationInformation.domain;// 短信API产品域名（接口地址固定，无需修改）
++            // 替换成你的AK
++            final String accessKeyId = ConfigurationInformation.accessKeyId;// 你的accessKeyId,参考本文档步骤2
++            final String accessKeySecret = ConfigurationInformation.accessKeySecret;// 你的accessKeySecret，参考本文档步骤2
++            // 初始化ascClient,暂时不支持多region
++            IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou",
++                    accessKeyId, accessKeySecret);
++            try {
++                DefaultProfile.addEndpoint("cn-hangzhou", "cn-hangzhou", product,
++                        domain);
++            } catch (ClientException e1) {
++                e1.printStackTrace();
++            }
++
++            //获取验证码
++            code = vcode();
++
++            IAcsClient acsClient = new DefaultAcsClient(profile);
++            // 组装请求对象
++            SendSmsRequest request = new SendSmsRequest();
++            // 使用post提交
++            request.setMethod(MethodType.POST);
++            // 必填:待发送手机号。支持以逗号分隔的形式进行批量调用，批量上限为1000个手机号码,批量调用相对于单条调用及时性稍有延迟,验证码类型的短信推荐使用单条调用的方式
++            request.setPhoneNumbers(mobile);
++            // 必填:短信签名-可在短信控制台中找到
++            request.setSignName(ConfigurationInformation.SignName);
++            // 必填:短信模板-可在短信控制台中找到
++            request.setTemplateCode(ConfigurationInformation.TemplateCode);
++            // 可选:模板中的变量替换JSON串,如模板内容为"亲爱的${name},您的验证码为${code}"时,此处的值为
++            // 友情提示:如果JSON中需要带换行符,请参照标准的JSON协议对换行符的要求,比如短信内容中包含\r\n的情况在JSON中需要表示成\\r\\n,否则会导致JSON在服务端解析失败
++            request.setTemplateParam("{ \"code\":\"" + code + "\"}");
++            // 可选-上行短信扩展码(无特殊需求用户请忽略此字段)
++            // request.setSmsUpExtendCode("90997");
++            // 可选:outId为提供给业务方扩展字段,最终在短信回执消息中将此值带回给调用者
++            request.setOutId("yourOutId");
++            // 请求失败这里会抛ClientException异常
++            SendSmsResponse sendSmsResponse;
++            try {
++                sendSmsResponse = acsClient.getAcsResponse(request);
++                if (sendSmsResponse.getCode() != null
++                        && sendSmsResponse.getCode().equals("OK")) {
++                    // 请求成功
++                    System.out.println("获取验证码成功！！！");
++                } else {
++          //如果验证码出错，会输出错误码告诉你具体原因
++                    System.out.println(sendSmsResponse.getCode());
++                    System.out.println("获取验证码失败...");
++                }
++            } catch (ServerException e) {
++                e.printStackTrace();
++                return "由于系统维护，暂时无法注册！！！";
++            } catch (ClientException e) {
++                e.printStackTrace();
++                return "由于系统维护，暂时无法注册！！！";
++            }
++            return "true";
++        }
++
++        /**
++         * 生成6位随机数验证码
++         * @return
++         */
++        public static String vcode() {
++            String vcode = "";
++            for (int i = 0; i < 6; i++) {
++                vcode = vcode + (int) (Math.random() * 9);
++            }
++            return vcode;
++        }
++
++
++    }
++
++
+diff --git target/classes/com/javaxxf/ConfigurationInformation.class target/classes/com/javaxxf/ConfigurationInformation.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e365222a7fd45da36b595f19560389594b9bfec7
+GIT binary patch
+literal 860
+zc$|%r%Wl&^6o&t4lE$Pdy+FCQ5GbWB;4~;wBY}{hRUm2_q&i9=8#J*eVG?^B*<+OO
+zG_2UMV1;181MnR18i?Z%6)&iS7vuTP{O8QM%=cekzX2%Wehw)VvbdSWEru0Gba~|J
+zJzptd>!$RCA8Cf=dY`}LMVG5y(b9oby@w3*qzW}xy2af{7+5FW)c;6uXX<R=HbeFV
+zHVB4+??g7i9fn!Q_qbFBHW}u)ZHq8G5aXI-V2fel#9#?K5ahAVU|6!J8r-8B?=s|@
+z!W+6=i#^{V%RP$tNGhoxGo&`RS`6v<fI`)!5{<~~h@i<ku83>$ZSJ;sAY+~y)B24J
+z88+&+?-k>kN26|$>g>v16mTtlRa0F*@FrX8LC*4{z!p^*JFlK5G~-BlT*76B_5X>?
+zu=uy(FFJji1$l;%GL_J#?Mk7vdCIH`|CS|2!jLKL&_})8ABSGZhcX`hbZc@~jw5A<
+zCS^*A)SFLg`~0X}*3a6<{l;^KwQBTE4fx@pwCgvY+9R*}syrUF%i+tms2tR(D{=Ba
+zKYsY}<vl$U>(F{#+I>)|ly=G$6fi?C4md;YNFxIp7|{%}#72VS^IU@Gi1P`aCqA3t
+z1>(g7FA*;%_#E;11g{WZNbp74v3NwZULi|y!a!#GGuWqz<SMPR6JrY3XwCl-U=?fh
+KXShC5-S`cfAj%s6
+
+diff --git target/classes/com/javaxxf/Run.class target/classes/com/javaxxf/Run.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..9f3f22d2b590e7aeed3dbfbb9b0a1b1cc4db2b29
+GIT binary patch
+literal 614
+zc$|Gv%TB^T6g@+EgYr@oMTCvPM{EeP!niSURUZ)pF~-GEOBn*KDTVM`t}vST0e+P6
+zP9Y&Gv5R|W?mhRMbEltQZyx|EC`A!ME{v@ZwxdvxlOZ3%P6!2t;Hj{Ld&Z!Y_nQp<
+zbNk6)NNB<`u115l;oR|dpDJn1)_K3l9U<@YqTlU`Awx>j?Sb0kV?LR5)Z39&r`CWA
+ziy>Qn&}2jHbIVj4t|Kh7?g??nq|wZhHbdaKYg?Y^lBRF0GZcPEHVsE~gw9=ITXF$H
+zMH}|W(TxiseTK=?u>{8vMuZ_&sn)8sO6{alt1{&Oql#k}MS7558!{vp)~?$<LwAYR
+zG~65Md@wW__R32(|64){LHa@R^MOf!6r*%gDKpA}gDKdH*N#yPdPN0sit!l$D_Er*
+zK?2G7@FSrW%9*rJdxvsAh5z!Xb@+-vYeAKU-y>8=KSs)FqL8%3*(g#}ky1%IuMx4t
+NtRw6B-0)a7zX79ef!F{5
+
+diff --git target/classes/com/javaxxf/VerificationCode.class target/classes/com/javaxxf/VerificationCode.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..a9057e5e415934769dd3ea4bda484f656f86f28e
+GIT binary patch
+literal 3568
+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
+B{}TWJ
+
